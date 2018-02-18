@@ -1,0 +1,33 @@
+# DO NOT DELETE
+./obj/boot.o : \
+   C:/PROGRA~1/Cypress/PSOCDE~1/5.4/Common/CYPRES~1/tools/include/CY8C27~1/m8c.inc\
+   C:/PROGRA~1/Cypress/PSOCDE~1/5.4/Common/CYPRES~1/tools/include/CY8C27~1/m8ssc.inc\
+   Z:\Embedded\PSoC1\nRF24L01\NRF24L~1\PER_TX~1\PER_TX\PER_TX\lib\GLOBAL~1.INC\
+   Z:\Embedded\PSoC1\nRF24L01\NRF24L~1\PER_TX~1\PER_TX\PER_TX\memory.inc
+./obj/delay.o : \
+   C:/PROGRA~1/Cypress/PSOCDE~1/5.4/Common/CYPRES~1/tools/include/CY8C27~1/m8c.inc\
+   Z:\Embedded\PSoC1\nRF24L01\NRF24L~1\PER_TX~1\PER_TX\PER_TX\memory.inc
+./obj/main.o :  ./lib/LCD.h ./lib/PSoCAPI.h ./lib/PSOCGP~1.H\
+   ./lib/SPIM.h\
+   C:/PROGRA~1/Cypress/PSOCDE~1/5.4/Common/CYPRES~1/tools/include/CY8C27~1/m8c.h\
+   Z:\Embedded\PSoC1\nRF24L01\NRF24L~1\PER_TX~1\PER_TX\PER_TX\delay.h\
+   Z:\Embedded\PSoC1\nRF24L01\NRF24L~1\PER_TX~1\PER_TX\PER_TX\nRF24L01.h
+./obj/nrf24l01.o :  ./lib/LCD.h ./lib/PSoCAPI.h ./lib/PSOCGP~1.H\
+   ./lib/SPIM.h\
+   C:/PROGRA~1/Cypress/PSOCDE~1/5.4/Common/CYPRES~1/tools/include/CY8C27~1/m8c.h\
+   Z:\Embedded\PSoC1\nRF24L01\NRF24L~1\PER_TX~1\PER_TX\PER_TX\delay.h\
+   Z:\Embedded\PSoC1\nRF24L01\NRF24L~1\PER_TX~1\PER_TX\PER_TX\nRF24L01.h
+./lib/obj/lcd.o :  ./lib/LCD.inc\
+   C:/PROGRA~1/Cypress/PSOCDE~1/5.4/Common/CYPRES~1/tools/include/CY8C27~1/m8c.inc\
+   Z:\Embedded\PSoC1\nRF24L01\NRF24L~1\PER_TX~1\PER_TX\PER_TX\memory.inc
+./lib/obj/psocconfig.o :  ./lib/GLOBAL~1.INC\
+   C:/PROGRA~1/Cypress/PSOCDE~1/5.4/Common/CYPRES~1/tools/include/CY8C27~1/m8c.inc\
+   Z:\Embedded\PSoC1\nRF24L01\NRF24L~1\PER_TX~1\PER_TX\PER_TX\memory.inc
+./lib/obj/psocconfigtbl.o : \
+   C:/PROGRA~1/Cypress/PSOCDE~1/5.4/Common/CYPRES~1/tools/include/CY8C27~1/m8c.inc
+./lib/obj/spim.o :  ./lib/SPIM.inc\
+   C:/PROGRA~1/Cypress/PSOCDE~1/5.4/Common/CYPRES~1/tools/include/CY8C27~1/m8c.inc\
+   Z:\Embedded\PSoC1\nRF24L01\NRF24L~1\PER_TX~1\PER_TX\PER_TX\memory.inc
+./lib/obj/spimint.o :  ./lib/SPIM.inc\
+   C:/PROGRA~1/Cypress/PSOCDE~1/5.4/Common/CYPRES~1/tools/include/CY8C27~1/m8c.inc\
+   Z:\Embedded\PSoC1\nRF24L01\NRF24L~1\PER_TX~1\PER_TX\PER_TX\memory.inc

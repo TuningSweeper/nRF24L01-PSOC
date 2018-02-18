@@ -1,0 +1,5 @@
+-F0x30 -g -blit:0x1a0.0x3fff 
+ -bdata:0.0xFF -rwh:SSCParmBlk:0x00F7.0x00FF   
+ -o"output/PER_TX" 
+obj/delay.o obj/main.o obj/nrf24l01.o 	
+ ./lib/libPSoc.a -LC:/PROGRA~1/Cypress/PSOCDE~1/5.4/Common/CYPRES~1/tools/lib/SMM C:/PROGRA~1/Cypress/PSOCDE~1/5.4/Common/CYPRES~1/tools/lib/CY8C27000B/cms.a C:/PROGRA~1/Cypress/PSOCDE~1/5.4/Common/CYPRES~1/tools/lib/SMM/UASW/MAC/arith.a  
